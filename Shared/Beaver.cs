@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shared
+﻿namespace Framework_Console
 {
-	public class Beaver
+	public abstract class Beaver
 	{
 		public string Name { get; set; }
 	}
