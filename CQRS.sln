@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework_Console", "Framew
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{38296E4A-82DD-456A-A7B5-4CF839425F95}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multi", "Multi\Multi.csproj", "{1C89B47F-9BD4-4C15-B8C1-1D74977213C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E826C22-0EB5-4859-ACD7-D58491764CCC}"
+	ProjectSection(SolutionItems) = preProject
+		Attributes.cs = Attributes.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +30,10 @@ Global
 		{17E8457C-9634-48C0-9CE8-52B93C217664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E8457C-9634-48C0-9CE8-52B93C217664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E8457C-9634-48C0-9CE8-52B93C217664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C89B47F-9BD4-4C15-B8C1-1D74977213C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C89B47F-9BD4-4C15-B8C1-1D74977213C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C89B47F-9BD4-4C15-B8C1-1D74977213C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C89B47F-9BD4-4C15-B8C1-1D74977213C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +43,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Shared\Shared.projitems*{17e8457c-9634-48c0-9ce8-52b93c217664}*SharedItemsImports = 4
+		Shared\Shared.projitems*{1c89b47f-9bd4-4c15-b8c1-1d74977213c7}*SharedItemsImports = 5
 		Shared\Shared.projitems*{38296e4a-82dd-456a-a7b5-4cf839425f95}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

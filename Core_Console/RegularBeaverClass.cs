@@ -6,7 +6,7 @@ public class RegularBeaverClass
 {
 	public void RegularBeaverMethod(Beaver beaver)
 	{
-		SharedCommand.AddBeaverCommand(beaver.Name);
+		SharedCommand.AddBeaverCommand(beaver);
 		SharedQuery.GetBeaver(beaver.Name);
 	}
 }

@@ -2,11 +2,11 @@
 {
 	public static class SharedCommand
 	{
-		public static void AddBeaverCommand(string beaverName)
+		public static void AddBeaverCommand(Beaver beaver)
 		{
-			var beaver = SharedQuery.GetBeaver(beaverName);
+			//var beaver = SharedQuery.GetBeaver(beaverName);
 			BeaversRepo.AddBeaver(beaver);
-		}
+		} 
 	}
 
 	public static class SharedQuery
