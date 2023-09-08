@@ -3,4 +3,6 @@
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnableBothContextAnalysis/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnableCqrsValidation/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnabledCqrsNamingRecommendation/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/WhetherToSearchCqrsByName/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/WhetherToSearchCqrsByName/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BothContextCall/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=QueryInvasion/@EntryIndexedValue">WARNING</s:String></wpf:ResourceDictionary>

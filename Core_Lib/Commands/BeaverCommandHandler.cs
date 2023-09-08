@@ -6,9 +6,8 @@ public class BeaverCommandHandler: ICommandHandler<RemoveBeaverCommand>
 {
 	public void Handle(RemoveBeaverCommand command)
 	{
-		BeaversRepo.GetBeaver("");
+		//BeaversRepo.GetBeaver("");
+
 		BeaversRepo.RemoveBeaver(command.BeaverId);
-
-
 	}
 }
