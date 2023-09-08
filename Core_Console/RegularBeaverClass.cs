@@ -6,6 +6,7 @@ namespace Core_Console;
 
 public class RegularBeaverClass
 {
+
 	public void RegularBeaverMethod(Beaver beaver)
 	{
 		new BeaversQuery().GetBeaver("Bob");
