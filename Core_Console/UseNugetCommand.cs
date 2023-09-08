@@ -4,22 +4,22 @@ using Nuget;
 
 namespace Core_Console;
 
-[Command]
-public class UseNugetCommand
+[NoCqrs]
+public class UseNugetCommand 
 {
-	[CommandMethod]
+	[NoCqrs]
 	public void UseNugetCommandMethod()
 	{
 		new NugetCommand().NugetCommandMethod();
 		new NugetQuery().NugetQueryMethod();
-
+		
 		SharedCommand.AddBeaverCommand(null!);
 		SharedQuery.GetBeaver(null!);
 
 		new UseNugetQuery().UseNugetQueryMethod();
 	}
 }
-
+[NoCqrs]
 public class UseNugetQuery
 {
 	public void UseNugetQueryMethod()
