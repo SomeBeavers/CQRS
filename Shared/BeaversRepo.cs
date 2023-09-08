@@ -16,5 +16,9 @@ namespace Framework_Console
 			return beavers.Find(b => b.Name == name);
 		}
 
+		public static bool RemoveBeaver(int commandBeaverId)
+		{
+			return false;
+		}
 	}
 }
