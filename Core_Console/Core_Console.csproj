@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Core_Lib\Core_Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
 </Project>

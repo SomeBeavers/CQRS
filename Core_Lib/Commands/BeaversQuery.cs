@@ -6,6 +6,6 @@ public class BeaversQuery
 {
 	public Beaver GetBeaver(string name)
 	{
-		return BeaversRepo.GetBeaver(name);
+        return BeaversRepo.GetBeaver(name);
 	}
 }
