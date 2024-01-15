@@ -1,23 +1,36 @@
-﻿namespace Core_Console.Interfaces;
+﻿using JetBrains.Annotations;
 
+namespace Core_Console.Interfaces11;
+
+[Query]
 public interface ITestCommand
 {
-    public void TestCommandMethod();
+    public void Test();
 }
 
-public class TestCommand : ITestCommand
+public interface ITestQuery
 {
-    public void TestCommandMethod()
+	public void TestQueryMethod();
+}
+
+
+public class TestQuery : ITestCommand
+{
+	public void Test()
+    {
+        Test3();
+        //new Test2().Test();
+    }
+
+    private void Test3()
     {
         throw new NotImplementedException();
     }
 }
-
-public class TestQuery : ITestCommand
+public class Test2 
 {
-    public void TestCommandMethod()
+    public void Test()
     {
-        new TestCommand().TestCommandMethod();
-
-	}
+		throw new NotImplementedException();
+    }
 }
