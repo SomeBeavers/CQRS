@@ -15,8 +15,8 @@ public class ExtendedModel : IMinimalModel
 
     public bool ValidateId()
     {
-		return new Validation2().ValidateId(this);
-        //return new Validation().ValidateId(this);
+	    return new Validation().ValidateId(this);
+	    //return new Validation().ValidateId(this);
     }
 }
 

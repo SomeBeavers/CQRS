@@ -9,6 +9,7 @@ public class DbCommand : IMinimalModel
     public int Id { get; set; }
     public bool ValidateId()
     {
-        return new Validation().ValidateId(this);
+	    return new ExtendedModel().ValidateId();
+	   // return new Validation().ValidateId(this);
     }
 }
