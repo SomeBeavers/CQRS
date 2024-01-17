@@ -21,7 +21,6 @@
     <Folder Include="ConflictingAttribute\" />
     <Folder Include="ContextIntersection\" />
     <Folder Include="MethodInBothContexts\" />
-    <Folder Include="UseAttributesFromAnnotations\" />
     <Folder Include="UnidentifiedEntity\" />
     <Folder Include="RedundantAttribute\" />
   </ItemGroup>

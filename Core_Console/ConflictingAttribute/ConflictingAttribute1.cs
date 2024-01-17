@@ -3,17 +3,20 @@
 namespace Core_Console.ConflictingAttribute;
 
 /// <summary>
-///     [AttributeUsage(AttributeTargets.Method)]
-///     public class CommandMethodAttribute : Attribute { }
-///     public class CommandAttribute : Attribute { }
-///     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class | AttributeTargets.Struct)]
-///     public class CommandHandlerAttribute : Attribute { }
-///     [AttributeUsage(AttributeTargets.Method)]
-///     public class QueryMethodAttribute : Attribute { }
-///     public class QueryAttribute : Attribute { }
-///     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
-///     public class QueryHandlerAttribute : Attribute { }
-///     public class NoCqrs : Attribute { }
+/// // ReSharper disable CheckNamespace
+/// namespace JetBrains.Annotations;
+/// 
+/// public class CommandAttribute : Attribute { }
+/// 
+/// public class QueryAttribute : Attribute { }
+/// 
+/// [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
+/// public class CommandHandlerAttribute : Attribute { }
+/// 
+/// [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
+/// public class QueryHandlerAttribute : Attribute { }
+/// 
+/// public class NoCqrsAttribute: Attribute { }
 /// </summary>
 public class ConflictingAttribute1
 {
@@ -25,7 +28,7 @@ public class ConflictingAttribute1
         }
     }
 
-
+    [CommandHandler]
     public class MyQuery
     {
         public void Test()
