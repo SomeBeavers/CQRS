@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Beaver.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BeaversRepo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared1Query.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SharedCommand.cs" />
   </ItemGroup>
 </Project>

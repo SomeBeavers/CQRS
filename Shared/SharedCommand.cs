@@ -1,10 +1,12 @@
-﻿namespace Framework_Console
+﻿using Framework_Console;
+
+namespace A
 {
 	public static class SharedCommand
 	{
 		public static void AddBeaverCommand(Beaver beaver)
 		{
-			//var beaver = SharedQuery.GetBeaver(beaverName);
+			//var beaver2 = SharedQuery.GetBeaver("beaverName");
 			BeaversRepo.AddBeaver(beaver);
 		} 
 	}

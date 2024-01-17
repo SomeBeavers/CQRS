@@ -18,6 +18,7 @@
   <ItemGroup>
     <Folder Include="Interfaces\" />
     <Folder Include="Naming\" />
+    <Folder Include="Playground\" />
   </ItemGroup>
 
 </Project>
