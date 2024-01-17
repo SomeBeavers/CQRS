@@ -17,9 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Attributes.cs = Attributes.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core_Lib", "Core_Lib\Core_Lib.csproj", "{BF9F12FC-3C70-46BA-A96F-6EB2C8DFB2B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core_Lib", "Core_Lib\Core_Lib.csproj", "{BF9F12FC-3C70-46BA-A96F-6EB2C8DFB2B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuget", "Nuget\Nuget.csproj", "{06C5729A-336C-476D-A884-EB123D323B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nuget", "Nuget\Nuget.csproj", "{06C5729A-336C-476D-A884-EB123D323B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMediatR", "UseMediatR\UseMediatR.csproj", "{92F07547-DCD1-4C14-B07A-B69018E2C874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{06C5729A-336C-476D-A884-EB123D323B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C5729A-336C-476D-A884-EB123D323B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C5729A-336C-476D-A884-EB123D323B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F07547-DCD1-4C14-B07A-B69018E2C874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F07547-DCD1-4C14-B07A-B69018E2C874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F07547-DCD1-4C14-B07A-B69018E2C874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F07547-DCD1-4C14-B07A-B69018E2C874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

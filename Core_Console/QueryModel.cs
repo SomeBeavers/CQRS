@@ -15,7 +15,8 @@ public class ExtendedModel : IMinimalModel
 
     public bool ValidateId()
     {
-	    return new Validation().ValidateId(this);
+	    return false;
+	    //return new Validation().ValidateId(this);
 	    //return new Validation().ValidateId(this);
     }
 }
@@ -49,7 +50,8 @@ public class A: IMinimalModel
 
     public bool ValidateId()
     {
-        return new Validation2().ValidateId(this);
+	    return new ExtendedModel().ValidateId();
+		//return new Validation2().ValidateId(this);
         //return new Validation().ValidateId(this);
     }
 }
