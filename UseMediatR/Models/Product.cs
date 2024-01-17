@@ -4,6 +4,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace UseMediatR.Models;
 public class Product
 {
+    public Product()
+    {
+    }
+
     public int Id { get; set; }
 
     [StringLength(80, MinimumLength = 4)]

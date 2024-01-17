@@ -4,14 +4,9 @@ using UseMediatR.Data;
 using UseMediatR.Models;
 
 namespace UseMediatR.Resources.Queries;
-public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, IEnumerable<Product>>
+public class GetAllProductsQueryHandler(ProductDBContext context)
+    : IRequestHandler<GetAllProductsQuery, IEnumerable<Product>>
 {
-    private readonly ProductDBContext _context;
-    public GetAllProductsQueryHandler(ProductDBContext context)
-    {
-        _context = context;
-    }
-
     public async Task<IEnumerable<Product>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken) =>
-        await _context.Products.ToListAsync();
+        await context.Products.ToListAsync(cancellationToken: cancellationToken);
 }

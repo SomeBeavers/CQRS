@@ -7,7 +7,7 @@ public class CreateProductCommandHandler(ProductDBContext dbContext) : IRequestH
 {
 	public async Task<Product> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
-        var product = new Product
+        var product = new Product()
         {
             Name = request.Name,
             Description = request.Description,
@@ -16,7 +16,7 @@ public class CreateProductCommandHandler(ProductDBContext dbContext) : IRequestH
         };
 
         dbContext.Products.Add(product);
-        await dbContext.SaveChangesAsync();
+        await dbContext.SaveChangesAsync(cancellationToken);
         return product;
     }
 }

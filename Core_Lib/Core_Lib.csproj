@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="NewCommands\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <Import Project="..\Shared\Shared.projitems" Label="Shared" />

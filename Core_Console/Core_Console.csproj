@@ -19,7 +19,6 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Naming\" />
     <Folder Include="ConflictingAttribute\" />
-    <Folder Include="ContextIntersection\" />
     <Folder Include="MethodInBothContexts\" />
     <Folder Include="UnidentifiedEntity\" />
     <Folder Include="RedundantAttribute\" />
