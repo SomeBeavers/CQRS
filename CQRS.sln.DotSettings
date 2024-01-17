@@ -1,11 +1,20 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsCommandSuffix/@EntryValue">Command</s:String>
-	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsQuerySuffix/@EntryValue">Query</s:String>
+	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsCommandHandlerSuffix/@EntryValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsCommandSuffix/@EntryValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsQueryHandlerSuffix/@EntryValue"></s:String>
+	<s:String x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/CqrsQuerySuffix/@EntryValue"></s:String>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsCustomSuffixOptions/EnableCustomSuffix/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnableBothContextAnalysis/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnableCqrsValidation/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/EnabledCqrsNamingRecommendation/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/CodeInspection/CqrsGeneralOptions/WhetherToSearchCqrsByName/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=BothContextCall/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommandInvasion/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConflictCqrsAttribute/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=CqrsDebug/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=CqrsNamingRecommendation/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=MultipleCqrsEntity/@EntryIndexedValue">WARNING</s:String>
 	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=QueryInvasion/@EntryIndexedValue">WARNING</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateInstanceFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=TypesAndNamespaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb"&gt;&lt;ExtraRule Prefix="" Suffix="" Style="AA_BB" /&gt;&lt;/Policy&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Mediat/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

@@ -17,4 +17,4 @@ public class QueryAttribute : Attribute { }
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct)]
 public class QueryHandlerAttribute : Attribute { }
 
-public class NoCqrs: Attribute { }
+public class NoCqrs : Attribute { }

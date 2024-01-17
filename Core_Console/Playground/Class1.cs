@@ -1,17 +1,7 @@
 ﻿namespace Core_Console.Playground
 {
-	class Query
-	{
-		public void Test()
-		{
-		}
-	}
+    public class Class1
+    {
 
-	class Command
-	{
-		public void Test()
-		{
-			new Query().Test();
-		}
-	}
+    }
 }

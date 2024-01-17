@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Core_Console;
+namespace Core_Console.Playground;
 
 [Query]
 // Query (read from db) model for DBModel
@@ -15,9 +15,9 @@ public class ExtendedModel : IMinimalModel
 
     public bool ValidateId()
     {
-	    return false;
-	    //return new Validation().ValidateId(this);
-	    //return new Validation().ValidateId(this);
+        return false;
+        //return new Validation().ValidateId(this);
+        //return new Validation().ValidateId(this);
     }
 }
 
@@ -40,7 +40,7 @@ public class ExtendedModel2 : IMinimalModel
 }
 
 
-public class A: IMinimalModel
+public class A : IMinimalModel
 {
     public int Id
     {
@@ -50,8 +50,8 @@ public class A: IMinimalModel
 
     public bool ValidateId()
     {
-	    return new ExtendedModel().ValidateId();
-		//return new Validation2().ValidateId(this);
+        return new ExtendedModel().ValidateId();
+        //return new Validation2().ValidateId(this);
         //return new Validation().ValidateId(this);
     }
 }

@@ -1,6 +1,6 @@
 ﻿using JetBrains.Annotations;
 
-namespace Core_Console;
+namespace Core_Console.Playground;
 
 public class Validation
 {

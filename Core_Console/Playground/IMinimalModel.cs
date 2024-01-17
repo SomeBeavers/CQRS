@@ -1,4 +1,4 @@
-﻿namespace Core_Console;
+﻿namespace Core_Console.Playground;
 
 public interface IMinimalModel
 {

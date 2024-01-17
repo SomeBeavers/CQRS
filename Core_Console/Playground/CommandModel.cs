@@ -1,4 +1,4 @@
-﻿namespace Core_Console;
+﻿namespace Core_Console.Playground;
 
 // Command (write to db) model for DBModel
 public class DbCommand : IMinimalModel
@@ -9,8 +9,8 @@ public class DbCommand : IMinimalModel
     public int Id { get; set; }
     public bool ValidateId()
     {
-		return new ExtendedModel().ValidateId();
-		//return new A().ValidateId();
-		// return new Validation().ValidateId(this);
-	}
+        return new ExtendedModel().ValidateId();
+        //return new A().ValidateId();
+        // return new Validation().ValidateId(this);
+    }
 }
