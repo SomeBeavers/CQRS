@@ -2,7 +2,7 @@
 {
 	public class New1Command
 	{
-		public void Test()
+        public void Test()
 		{
 		}
 	}

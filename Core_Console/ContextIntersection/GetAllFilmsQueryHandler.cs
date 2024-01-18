@@ -14,3 +14,11 @@ public class GetAllFilmsQueryHandler(TestContext context) : IRequestHandler<GetA
         return "Jane Doe";
     }
 }
+
+public class DerivedGetAllFilmsQueryHandler(TestContext context) : GetAllFilmsQueryHandler(context)
+{
+    public new string MethodFromInterface()
+    {
+        return "Jane Doe";
+    }
+}
