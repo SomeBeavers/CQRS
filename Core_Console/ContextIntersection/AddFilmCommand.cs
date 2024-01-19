@@ -1,6 +1,7 @@
 ﻿using Core_Console.DB;
 using JetBrains.Annotations;
 using MediatR;
+using  X =  Core_Console.ContextIntersection.StaticCommand;
 
 namespace Core_Console.ContextIntersection;
 
@@ -33,6 +34,7 @@ public class MyCommand
     public void Test(MyEnum myEnum)
     {
         var addFilmQuery = MyProperty;
+        new GetFilmQuery().Test2();
         //switch (myEnum)
         //{
         //    case MyEnum.Test:
@@ -69,10 +71,11 @@ public class AddFilmQueryImpl : AddFilmQuery
 }
 
 
-public class GetFilmQuery : IAddBaseQuery<int>
+public partial class GetFilmQuery : IAddBaseQuery<int>
 {
     void IAddBaseQuery<int>.Add(int id)
     {
+        X.Test();
         Test();
     }
 
@@ -82,7 +85,24 @@ public class GetFilmQuery : IAddBaseQuery<int>
     }
 }
 
+public partial class GetFilmQuery
+{
+    public void Test2()
+    {
+        StaticCommand.Test();
+    }
+
+}
+
 public interface IAddBaseQuery<T>
 {
     public void Add(T id);
+}
+
+public static class StaticCommand
+{
+    public static void Test()
+    {
+        throw new NotImplementedException();
+    }
 }
