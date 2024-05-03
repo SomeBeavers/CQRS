@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ContextIntersection\3\" />
+    <Folder Include="ContextIntersection\NewFolder\" />
     <Folder Include="Interfaces\" />
     <Folder Include="ConflictingAttribute\" />
     <Folder Include="MethodInBothContexts\" />

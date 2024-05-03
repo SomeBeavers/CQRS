@@ -7,3 +7,11 @@ public class AddPersonCommandHandler
         new RegularClass().UseGetPersonsQueryHandlerMethod();
     }
 }
+public class AddPerson2CommandHandler
+{
+    public void AddPerson2CommandHandlerMethod(RegularClass regularClass)
+    {
+        regularClass.UseGetPersonsQueryHandlerMethod();
+        regularClass.UseGetPersonsQueryHandlerMethod22();
+    }
+}

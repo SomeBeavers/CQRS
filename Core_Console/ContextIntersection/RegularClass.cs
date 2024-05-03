@@ -30,3 +30,12 @@ public class RegularClass2
         new RegularClass().UseGetPersonsQueryHandlerMethod22();
     }
 }
+
+public class AddPerson3CommandHandler
+{
+    public void AddPerson3CommandHandlerMethod(RegularClass regularClass)
+    {
+        regularClass.UseGetPersonsQueryHandlerMethod();
+        regularClass.UseGetPersonsQueryHandlerMethod22();
+    }
+}

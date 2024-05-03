@@ -8,6 +8,6 @@ public class GetPersonsQueryHandler
 
     public void GetPersonsQueryHandlerMethod2()
     {
-        new RegularClass().UseAddPersonCommandHandlerMethod();
+        //new RegularClass().UseAddPersonCommandHandlerMethod();
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Core_Console.DB;
 using MediatR;
 
-namespace Core_Console.ContextIntersection;
+namespace Core_Console.ContextIntersection1;
 
 public class GetFilmByIdQueryBase
 {
@@ -32,7 +32,7 @@ public class MyClass
     }
 }
 
-public class GetFilmByIdQuery: GetFilmByIdQueryBase, IRequest<Film>
+public class GetFilmByIdQuery : GetFilmByIdQueryBase, IRequest<Film>
 {
 
     public int Id { get; set; }

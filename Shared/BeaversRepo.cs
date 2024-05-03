@@ -4,7 +4,7 @@ namespace Framework_Console
 {
 	public static class BeaversRepo
 	{
-		static List<Beaver> beavers = new List<Beaver>();
+		static List<Beaver> beavers = [];
 
 		public static void AddBeaver(Beaver beaver)
 		{
